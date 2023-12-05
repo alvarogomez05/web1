@@ -1,0 +1,453 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins/Poppins.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    margin: 0 auto;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #faf9fe;
+    font-family: Poppins;
+    margin-bottom: 0%;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    color: #0f172a;
+    align-items: center;
+    margin: 2rem;
+}
+
+.logo-izq {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logotipo {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.link-menu {
+    align-items: center;
+    padding: 10px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin: 1rem;
+    color: #0f172a;
+
+}
+
+.link-menu-con {
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: #a80000e5;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 10px;
+    color: white;
+
+}
+
+.construye-tu-cuerpo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textos-ctc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Poppins;
+    margin: 4rem;
+}
+
+.texto1-ctc {
+    font-size: 2rem;
+    color: #a80000e5;
+    margin: 10px;
+}
+
+.h1-ctc {
+    color: #a80000e5;
+    font-size: 3.5rem;
+    margin: 0%;
+}
+
+.texto2-ctc {
+    color: #0f172a;
+    font-size: 1rem;
+}
+
+.boton-ctc {
+    text-align: right;
+    background-color: #a80000e5;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-left: 26.5rem;
+}
+
+.image-ctc {
+    margin: 4rem;
+    display: flex;
+}
+
+.img-ctc {
+    width: 375px;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-nosotros {
+    margin: 4rem;
+    display: flex;
+}
+
+.img-nosotros {
+    width: 375px;
+}
+
+.subcontainer-izq {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+.caja-nosotros {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.subcaja1-nosotros {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-nos {
+    font-size: 2rem;
+    color: #a80000e5;
+    margin: 0%;
+}
+
+.text1-nos {
+    font-size: 1rem;
+}
+
+.ri-open-arm-line {
+    color: #a80000e5;
+    font-size: 3.5rem;
+    margin: 10px;
+}
+
+.ri-shield-cross-line {
+    color: #a80000e5;
+    font-size: 3.5rem;
+    margin: 10px;
+}
+
+.ri-p2p-line {
+    color: #a80000e5;
+    font-size: 3.5rem;
+    margin: 10px;
+}
+
+
+.subtitle-nos {
+    color: black;
+    font-size: 1rem;
+    margin: 0%;
+}
+
+.subtext-nos {
+    color: black;
+    font-size: 0.85rem;
+    margin: 0%;
+}
+
+.clases {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+
+
+.caja-clases {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.subcaja-clases {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    margin: 0px 5px 0px 5px;
+    background-color: #a80000e5;
+
+}
+
+.subtitle-clases {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.subtext-clases {
+    text-align: center;
+    font-size: 0.85rem;
+    color: white;
+    margin-top: 0%;
+}
+
+.title-clases {
+    font-size: 2rem;
+    color: #a80000e5;
+    margin: 0%;
+}
+
+.text1-clases {
+    font-size: 1rem;
+}
+
+.tarifas {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.caja-tarifas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subcaja-tarifas {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 350px;
+    height: 600px;
+
+}
+
+.subtitle-tarifas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px 10px 0px;
+
+}
+
+.simbolo {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    margin: 0%;
+}
+
+.texto-tarif {
+    font-size: 1rem;
+    color: #a80000e5;
+    border-bottom: 2px solid #a80000e5;
+    padding-right: 160px;
+}
+
+.precio-tarifa {
+    color: #a80000e5;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.boton-tarifas1 {
+    text-decoration: none;
+    color: white;
+    background-color: #a80000e5;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    align-items: end;
+    margin-top: 14.8rem;
+}
+
+.boton-tarifas2 {
+    text-decoration: none;
+    color: white;
+    background-color: #a80000e5;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    align-items: end;
+    margin-top: 8.8rem;
+}
+
+.boton-tarifas3 {
+    text-decoration: none;
+    color: white;
+    background-color: #a80000e5;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    align-items: end;
+    margin-top: 2.8rem;
+}
+
+
+.footer {
+    margin:0%;
+    background-color: #0f172a;
+    color: #64748b;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.anchofooter{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.caja1-footer {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #64748b;
+    margin: 2rem;
+    margin-right:4rem ;
+    padding-bottom: 15px;
+}
+
+.caja2-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja3-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.caja4-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.text1-footer {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.icon-footer {
+    padding: 10px;
+    border: 2px solid #64748b;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.link-icon{
+    text-decoration: none;
+    color: #64748b;
+}
+
+.mailto {
+    text-decoration: none;
+    color: #a80000e5;
+
+}
+
+.cajamail {
+    text-align: center;
+}
+
+.texto1-footer {
+    color: white;
+}
+
+.lista {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.item-lista {
+    font-size: 0.85rem;
+    margin: 5px;
+}
+
+.link-menu:hover{
+    color:#a80000e5;
+border-bottom: 2px solid grey;
+}
+
+.link-menu-con:hover{
+    background-color: #ff0202e5;
+    color: #ffffff;
+}
+
+.button:hover{
+    background-color: #ffffff;
+    color: #ff0202e5;
+    border: 1px solid #ff0202e5;
+    border-radius: 5px;
+}
+
+.boton-ctc:hover{
+    background-color: #ff0202e5;
+    color: #ffffff;
+}
+
+.link-icon:hover{
+    border-color: #fff;
+    color: #fff;
+}
+
+.item-lista:hover{
+    color:#ffffff ;
+    text-decoration: underline;
+}
+
+.mailto:hover{
+    color:#ffffff ;
+    text-decoration: underline;
+}
